@@ -1,0 +1,51 @@
+#contactbutton {
+    border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    font-family: "Open Sans",  sans-serif;
+    font-weight: 600;
+    line-height: normal;
+    margin: 1.25rem 0;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    text-align: center;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    display: inline-block;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1.0625rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    background-color: white;
+    border-color: #90291b;
+    color: black;
+    -moz-transition: background-color,  300ms,  ease-out;
+    -o-transition: background-color,  300ms,  ease-out;
+    -webkit-transition: background-color,  300ms,  ease-out;
+    transition: background-color,  300ms,  ease-out;
+}
+#contactbutton:hover, #contactbutton:focus {
+    background-color: #891e1b;
+    color: white;
+}
+#contactbutton.application {
+    width: 300px;
+    background-color: transparent;
+    color: #b43322;
+    border: solid 1px #b43322;
+    margin: 1.25rem 1rem;
+    display: inline-block;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1.0625rem;
+    padding-left: 2rem;
+    text-shadow: none;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#contactbutton.application:hover, #contactbutton.application:focus {
+    background-color: #891e1b;
+    color: white;
+}
